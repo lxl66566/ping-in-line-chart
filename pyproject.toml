@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pinger"
+version = "2.0.0"
+description = "to make a dynamic line chart of ping to a website"
+authors = ["lxl66566 <1421962366@qq.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ping3 = "^4.0.4"
+matplotlib = "^3.7.0"
+pynput = "^1.7.6"
+
+[[tool.poetry.source]]
+name = "tsinghua-pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
